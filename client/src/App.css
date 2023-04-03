@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  
+}
+
+.form {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  box-shadow: 0 3px 5px rgb(164, 133, 71);
+  margin-bottom: 2rem;
+}
+
+
+.form-first-name, .form-last-name, .type-span, .living-span, .bounty-amount-span {
+  padding: 1rem;
+  width: 220px;
+  text-align: center;
+}
+
+label#radio {
+  padding: .8rem;
+}
+
+.bounty-button {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h1, h3 {
+  margin: 0;
+}
+
+.bounty-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.bounty {
+  padding: 1.5rem;
+  width: 400px;
+  box-shadow: 0 3px 5px grey;
+  text-align: center;
+}
+
+
+.sith {
+  text-transform: capitalize;
+  margin: 0;
+  padding-bottom: 1.2rem;
+}
+
+.living, .name {
+  display: flex;
+  justify-content: center;
+}
+
+.living {
+  padding: .5rem;
+  border-bottom: 3px dashed rgb(187, 187, 187);
+  width: 90%;
+  margin: auto;
+}
+
+.name {
+  padding-top: .5rem;
+}
+
+.bounty-price-span {
+  display: flex;
+  justify-content: space-between;
+}
+
